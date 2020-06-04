@@ -1,2 +1,6 @@
 # Motion-Magnification
 Implementation of Phase-Based Video Motion Processing (Wadhwa et al. 2013)
+
+The phase-based motion magnification technique in Phase-Based Video Motion Processing (Wadhwa et al. 2013) uses complex-valued steeerable pyramids to decompose phase variations and amplitude variations over time. By temporally processing the motions, small imperceptible motions can be amplified and the video can be reconstructed with the amplified motion. This processing is lightweight, doesn't require expensive optical flow computations, and is less sensitive to noise than Eulerian video magnificaiton methods. This implementation uses an ideal bandpass temporal filter. Experimented with directed control over the areas and patterns of magnification were perfomred by using a functions for changing magnification factors and by identifying which frequency subbands of the video corresponded to different strings. Design of controlled patterns of motion in the motion-magnified videos can be achieved.
+
+This work was done for Caltech's CS 101 Computational Imaging course with Prof. Katie Bouman. The link to the associated report is https://github.com/mzhao98/Motion-Magnification/blob/master/report.pdf. 
